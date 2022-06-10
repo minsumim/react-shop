@@ -7,6 +7,38 @@
   pointer-events: none;
 }
 
+.mnav {
+  padding: 20px;
+  height: 65px;
+}
+
+.container-start {
+  opacity: 0;
+}
+
+.container-end {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.start {
+  opacity: 0;
+}
+
+.end {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.main-bg {
+  height: 40vh;
+  background-image: url(./image/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +59,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
